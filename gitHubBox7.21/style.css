@@ -1,6 +1,41 @@
-.firstImg {
-    width: 400px;
-    height: 200px;
-    background-color: grey;
+*{
+    padding: 0px;
+    margin: 0px;
 
+}
+h1 {
+    font-size:10rem ;
+    text-align: center;
+
+}
+
+#firstImg {
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 30px;
+    margin-top: 30px;
+}
+
+#secondImg {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 30px;
+    margin-top: 30px;
+}
+
+
+#thirdImg {
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 30px;
+    margin-top: 30px;
 }
